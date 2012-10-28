@@ -26,6 +26,6 @@ if name.lower()in people:
     if request=='a': key='adr'
     else: print" wrong!"
     print "hello,%s's %s is %s"%\
-                     (name, label[request],people[name][key])
+                     (name, label[request],people[name.lower()][key])
                     
 else: print"sorry,there is no %s"% name
