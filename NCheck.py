@@ -19,7 +19,7 @@ def store(data, full_name):
 mynames={}
 init(mynames)
 while True:
-    opt=raw_input('to save(s) or to loopup(c)? (press # to stop!):')
+    opt=raw_input('to save(s) or to lookup(c)? (press # to stop!):')
     if opt=='s':
         Name=raw_input('input the name:')
         cname=Name.split()
